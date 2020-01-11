@@ -209,7 +209,7 @@
      `(local-branch-remote ((t (:foreground ,green-2-6))))
      '(magit-branch-remote-head ((t (:box (:line-width 1 :color nil :style nil) :inherit (magit-branch-remote)))))
      `(magit-hash ((t (:foreground ,grey-4-6))))
-     `(magit-author ((t (:foreground ,deep-orange-2-6))))
+     `(magit-log-author ((t (:foreground ,deep-orange-2-6))))
      `(magit-blame-highlight ((t (:background ,blue-grey-7-1 :foreground ,blue-grey-2-6))))
      `(magit-tag ((t (:foreground ,orange-2-6))))
      `(magit-bisect-bad ((t (:foreground ,red-4))))
