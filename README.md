@@ -1,7 +1,8 @@
 Lupan's themes
-=============
+==============
 
-Here are my Emacs themes using [material design
+Here are my Emacs themes (dark, dark blue, and light).  Dark and light
+themes are using [material design
 colors](https://material.io/design/color/the-color-system.html#tools-for-picking-colors).
 
 
