@@ -63,7 +63,7 @@
 	 (lime-2-7 (funcall c "#e6ee9c" "#afb42b" "#e8ee8e" "#e8ee8e" "#83ea46"))
 	 (lime-4 (funcall c "#d4e157" "#d4e157" "#dce988" "#dce988" "#dce988"))
 	 (lime-7-2 (funcall c "#afb42b" "#e6ee9c" "#8fa840" "#8fa840" "#8fa840"))
-	 (yellow-2-6 (funcall c "#fff59d" "#fdd835" "#e9dc88" "#e9dc88" "#f2c32d"))
+	 (yellow-2-8 (funcall c "#fff59d" "#f9a825" "#e9dc88" "#e9dc88" "#f2c32d"))
 	 (yellow-4 (funcall c "#ffee58" "#ffee58" "#fbda62" "#fbda62" "#fbda62"))
 	 (yellow-9 (funcall c "#f57f17" "#f57f17" "#f6bc25" "#f6bc25" "#f6bc25"))
 	 (orange-2-6 (funcall c "#ffcc80" "#fb8c00" "#fdb22d" "#fdb22d" "#fdb22d"))
@@ -133,7 +133,7 @@
      `(term-color-magenta ((t (:background ,purple-2-6 :foreground ,purple-2-6))))
      `(term-color-red ((t (:background ,red-2-6 :foreground ,red-2-6))))
      `(term-color-white ((t (:background ,grey-0 :foreground ,grey-0))))
-     `(term-color-yellow ((t (:background ,yellow-2-6 :foreground ,yellow-2-6))))
+     `(term-color-yellow ((t (:background ,yellow-2-8 :foreground ,yellow-2-8))))
      `(header-line ((t (:foreground ,purple-2-6))))
      '(org-level-1 ((t (:height 1.3 :inherit (header-line)))))
      '(org-level-2 ((t (:height 1.2 :inherit (header-line)))))
@@ -261,7 +261,7 @@
      '(avy-lead-face-2 ((t (:inherit (avy-lead-face)))))
      '(aw-leading-char-face ((t (:height 2.0 :inherit (avy-lead-face)))))
      `(aw-background-face ((t (:foreground ,grey-6-4))))
-     `(sh-heredoc ((t (:foreground ,yellow-2-6))))
+     `(sh-heredoc ((t (:foreground ,yellow-2-8))))
      `(error ((t (:foreground ,red-4 :weight bold))))
      `(warning ((t (:foreground ,orange-2-6 :weight bold))))
      `(success ((t (:foreground ,green-2-6 :weight bold))))
@@ -274,8 +274,8 @@
      `(flycheck-info ((((supports :underline (:style wave))) (:underline (:color ,green-2-6 :style wave))) (t (:inherit (success) :underline (:color foreground-color :style line))))))
     (custom-theme-set-variables
      theme
-     `(ansi-color-names-vector [,grey-9 ,red-2-6 ,yellow-2-6 ,blue-2-6 ,purple-2-6 ,cyan-2-6 ,grey-0])
-     `(rustic-ansi-faces [,grey-9 ,red-2-6 ,yellow-2-6 ,blue-2-6 ,purple-2-6 ,cyan-2-6 ,grey-0]))))
+     `(ansi-color-names-vector [,grey-9 ,red-2-6 ,yellow-2-8 ,blue-2-6 ,purple-2-6 ,cyan-2-6 ,grey-0])
+     `(rustic-ansi-faces [,grey-9 ,red-2-6 ,yellow-2-8 ,blue-2-6 ,purple-2-6 ,cyan-2-6 ,grey-0]))))
 
 ;;;###autoload
 (and load-file-name
