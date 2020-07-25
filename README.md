@@ -1,9 +1,13 @@
 Lupan's themes
 ==============
 
-Here are my Emacs themes (dark, dark blue, and light).  Dark and light
-themes are using [material design
+Here are my Emacs themes (dark, dark blue, dark gray, light, material
+dark, and material light).  Material dark and material light themes
+are using [material design
 colors](https://material.io/design/color/the-color-system.html#tools-for-picking-colors).
+Others use groups of HSL colors where each group have the same
+saturation and luminance components (the parameters of each group can
+be adjusted in the source of each theme function).
 
 
 Screenshots
@@ -31,4 +35,6 @@ the following lines
 (load-theme 'lupan-dark t)
 ```
 
-or for the light variant replace `lupan-dark` with `lupan-light`.
+for other variants replace `lupan-dark` with one of `lupan-dark-blue`,
+`lupan-dark-gray`, `lupan-light`, `lupan-material-dark`, or
+`lupan-material-light`.
