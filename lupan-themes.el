@@ -62,7 +62,7 @@ given as symbol (color name)"
 		 (t h))))
     (apply #'color-rgb-to-hex (append (color-hsl-to-rgb h s l) '(2)))))
 
-(defun lupan-themes-create-theme (theme)
+(defun lupan-themes-create-material-theme (theme)
   (cl-labels ((c (dark light)
 		 (if (eq theme 'lupan-material-light) light dark)))
     (let* ((red-0-9 (c "#ffebee" "#b71c1c"))
